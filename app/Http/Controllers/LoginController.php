@@ -17,7 +17,7 @@ class LoginController extends Controller
 		$pass= $request->input('pass');
 		$rol = $request->input('rol');
 		$fila= [];
-
+		$hola = "";
 		if($rol== "1")
 			$fila = Participantes::whereRaw('ci = ? and password = ?', [$user, $pass])->get();
 		else if($rol== "2")
