@@ -16,7 +16,7 @@ Route::get('/', function () {
 });
 
 Route::get('hola', function () {
-    return "hola cho";
+    return "hola chooo";
 });
 Route::controller('cursos', 'CursosController');
 
