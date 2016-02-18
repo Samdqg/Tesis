@@ -34,7 +34,7 @@ class RegistroController extends Controller
 		$participante->telf= $request->input('telf');
 
 		$participante->save();
-
+		//registro
 		return "Registro";
 	}
 }

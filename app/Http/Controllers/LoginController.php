@@ -38,6 +38,7 @@ class LoginController extends Controller
 			$retorno = "El usuario no existe";	
 		}
 		//comentario de prueba
+		//esta es otra prueba
 		return $retorno;
 	}
 }
